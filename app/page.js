@@ -35,37 +35,50 @@ export default function Home() {
 
       <div className="mx-auto flex w-full max-w-6xl flex-col px-5 pb-5 pt-24 sm:px-8 sm:pb-7 sm:pt-28">
         <section className="py-8 sm:py-12 lg:py-14">
-          <div className="max-w-3xl">
-            <p className="mb-5 inline-flex rounded-full bg-[#ec3750] px-3 py-1 text-sm font-black uppercase tracking-wide text-white shadow-[4px_4px_0_#000]">
-              Neon Genesis
-            </p>
-            <h1 className="text-5xl font-black leading-[0.95] tracking-normal text-[#111] sm:text-7xl lg:text-[5.75rem]">
-              Type real code, make real art.
-              <br />
-              We’ll mail it to you.
-            </h1>
-            <p className="mt-6 max-w-xl text-lg font-medium leading-8 text-[#323232] sm:text-xl">
-              Create something in p5.js, submit it, and get a physical print of
-              your artwork in the mail.
-            </p>
+          <div className="grid gap-9 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-14 xl:grid-cols-[minmax(0,1fr)_360px]">
+            <div className="max-w-3xl">
+              <p className="mb-5 inline-flex rounded-full bg-[#ec3750] px-3 py-1 text-sm font-black uppercase tracking-wide text-white shadow-[4px_4px_0_#000]">
+                Neon Genesis
+              </p>
+              <h1 className="text-5xl font-black leading-[0.95] tracking-normal text-[#111] sm:text-7xl lg:text-[5.25rem]">
+                Type real code,
+                <br />
+                make real art.
+              </h1>
+              <p className="mt-6 max-w-xl text-lg font-medium leading-8 text-[#323232] sm:text-xl">
+                Create something in p5.js, submit your sketch, and we’ll mail
+                you a physical print of your artwork.
+              </p>
 
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a
-                href="https://editor.p5js.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-[#ec3750] px-5 text-base font-black text-white shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
-              >
-                Open p5.js
-              </a>
-              <a
-                href="https://forms.hackclub.com/t/p4eBdtmXnjus"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-white px-5 text-base font-black text-[#111] shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
-              >
-                Submit sketch
-              </a>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="https://editor.p5js.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-[#ec3750] px-5 text-base font-black text-white shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
+                >
+                  Open p5.js
+                </a>
+                <a
+                  href="https://forms.hackclub.com/t/p4eBdtmXnjus"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-white px-5 text-base font-black text-[#111] shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
+                >
+                  Submit sketch
+                </a>
+              </div>
+            </div>
+
+            <div className="mx-auto w-full max-w-[260px] sm:max-w-[300px] lg:max-w-none">
+              <Image
+                src="/polaraid.png"
+                alt="Physical print preview"
+                width={428}
+                height={517}
+                priority
+                className="h-auto w-full rotate-2 drop-shadow-[8px_10px_0_rgba(0,0,0,0.18)]"
+              />
             </div>
           </div>
         </section>
