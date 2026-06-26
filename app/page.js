@@ -38,7 +38,7 @@ export default function Home() {
           <div className="grid gap-9 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-14 xl:grid-cols-[minmax(0,1fr)_360px]">
             <div className="max-w-3xl">
               <p className="mb-5 inline-flex rounded-full bg-[#ec3750] px-3 py-1 text-sm font-black uppercase tracking-wide text-white shadow-[4px_4px_0_#000]">
-                Neon Genesis
+                JS2Photo
               </p>
               <h1 className="text-5xl font-black leading-[0.95] tracking-normal text-[#111] sm:text-7xl lg:text-[5.25rem]">
                 Type real code,
