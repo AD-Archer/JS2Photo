@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "JS2Photo",
   description:
-    "You ship We ship for JS2Photo, a js sketch submission website.",
+    "Hack Club YSWS(You ship We ship for JS2Photo), a js sketch submission website using p5.js.",
 };
 
 export default function RootLayout({ children }) {

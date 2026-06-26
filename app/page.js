@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="relative isolate min-h-screen overflow-hidden bg-[#f8f3e7] text-[#1f1f1f]">
       <div className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_78%_24%,rgba(255,142,38,0.18),transparent_32%),linear-gradient(135deg,#fff8ea_0%,#f8f3e7_48%,#ffd9d9_100%)]" />
-      <div className="pointer-events-none absolute right-0 top-0 -z-10 h-[74vh] w-full opacity-10 sm:w-3/5 sm:opacity-28">
+      <div className="pointer-events-none absolute right-0 top-0 -z-10 h-[74vh] w-full opacity-15 sm:w-3/5 sm:opacity-35">
         <PixelBlast
           variant="square"
           color="#ec3750"
@@ -37,9 +37,6 @@ export default function Home() {
         <section className="py-8 sm:py-12 lg:py-14">
           <div className="grid gap-9 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-14 xl:grid-cols-[minmax(0,1fr)_360px]">
             <div className="max-w-3xl">
-              <p className="mb-5 inline-flex rounded-full bg-[#ec3750] px-3 py-1 text-sm font-black uppercase tracking-wide text-white shadow-[4px_4px_0_#000]">
-                JS2Photo
-              </p>
               <h1 className="text-5xl font-black leading-[0.95] tracking-normal text-[#111] sm:text-7xl lg:text-[5.25rem]">
                 Type real code,
                 <br />
@@ -86,9 +83,6 @@ export default function Home() {
         <section className="border-y-2 border-black/80 py-9 sm:py-11">
           <div className="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
             <div className="max-w-md">
-              <p className="text-sm font-black uppercase tracking-wide text-[#ec3750]">
-                Demonstration
-              </p>
               <h2 className="mt-2 text-3xl font-black leading-tight text-[#111] sm:text-4xl">
                 Save it, share it, download it.
               </h2>
@@ -104,6 +98,7 @@ export default function Home() {
                   src="/example.gif"
                   alt="Example animated p5.js sketch"
                   fill
+                  loading="eager"
                   unoptimized
                   sizes="(min-width: 1024px) 640px, calc(100vw - 56px)"
                   className="object-contain"
@@ -113,11 +108,44 @@ export default function Home() {
           </div>
         </section>
 
-        <footer className="flex flex-col gap-2 py-4 text-sm font-bold sm:flex-row sm:items-center sm:justify-between">
-          <span>Ship a sketch. Get something you can hold.</span>
-          <span className="font-mono text-xs uppercase tracking-wide">
-            Made for builders
-          </span>
+        <footer className="py-6 text-sm font-bold">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+            <p className="max-w-sm text-base font-black leading-6">
+              made with &lt;3 by teens, for teens
+            </p>
+            <nav
+              aria-label="Hack Club links"
+              className="flex flex-wrap gap-x-5 gap-y-2 font-mono text-xs uppercase tracking-wide"
+            >
+              <a className="hover:text-[#ec3750]" href="https://hackclub.com/">
+                hack club
+              </a>
+              <a
+                className="hover:text-[#ec3750]"
+                href="https://gamedev.hackclub.com/"
+              >
+                game jams
+              </a>
+              <a
+                className="hover:text-[#ec3750]"
+                href="https://slack.hackclub.com/"
+              >
+                slack
+              </a>
+              <a
+                className="hover:text-[#ec3750]"
+                href="https://hackclub.com/clubs"
+              >
+                clubs
+              </a>
+              <a
+                className="hover:text-[#ec3750]"
+                href="https://hackathons.hackclub.com/"
+              >
+                hackathons
+              </a>
+            </nav>
+          </div>
         </footer>
       </div>
     </main>
