@@ -72,7 +72,7 @@ export default function Home() {
 
             <div className="mx-auto w-full max-w-[260px] sm:max-w-[300px] lg:max-w-none">
               <Image
-                src="/polaraid.png"
+                src="/logo.png"
                 alt="Physical print preview"
                 width={428}
                 height={517}
