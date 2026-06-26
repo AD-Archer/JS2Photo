@@ -57,7 +57,7 @@ export default function Home() {
                   Open p5.js
                 </a>
                 <a
-                  href="https://forms.hackclub.com/t/p4eBdtmXnjus"
+                  href="https://forms.hackclub.com/js2photo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-white px-5 text-base font-black text-[#111] shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
@@ -104,6 +104,67 @@ export default function Home() {
                   className="object-contain"
                 />
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="border-b-2 border-black/80 py-9 sm:py-11">
+          <div className="grid gap-6 lg:grid-cols-[0.72fr_1.28fr]">
+            <div>
+              <h2 className="text-3xl font-black leading-tight text-[#111] sm:text-4xl">
+                FAQ
+              </h2>
+            </div>
+            <div className="grid gap-3">
+              <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
+                <summary className="cursor-pointer list-none text-base font-black marker:hidden">
+                  What should I make?
+                </summary>
+                <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
+                  Make any small p5.js sketch: generative art, animation,
+                  shapes, particles, or whatever feels fun, and whatever you
+                  would want to make real.
+                </p>
+              </details>
+              <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
+                <summary className="cursor-pointer list-none text-base font-black marker:hidden">
+                  What do I submit?
+                </summary>
+                <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
+                  Submit your p5.js share link and screenshots using the above
+                  form.
+                </p>
+              </details>
+              <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
+                <summary className="cursor-pointer list-none text-base font-black marker:hidden">
+                  Who can join?
+                </summary>
+                <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
+                  Teens(13-18) who want to make something with code. Beginners
+                  are very welcome and encouraged.
+                </p>
+              </details>
+              <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
+                <summary className="cursor-pointer list-none text-base font-black marker:hidden">
+                  What happens after I submit?
+                </summary>
+                <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
+                  We’ll review your sketch, how many hours you worked on your
+                  sketch, and mail you physical prints or stickers of your
+                  artwork.
+                </p>
+              </details>
+              <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
+                <summary className="cursor-pointer list-none text-base font-black marker:hidden">
+                  How many prints or stickers can I get?
+                </summary>
+                <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
+                  Ideally, 1 hour of work equals 1 print. That reward can
+                  include multiple stickers or prints or sometimes just the 1, and you can choose
+                  multiple prints of multiple artworks. If you made around 6
+                  hours of work, you can choose both stickers and prints.
+                </p>
+              </details>
             </div>
           </div>
         </section>
