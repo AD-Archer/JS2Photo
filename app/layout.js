@@ -15,6 +15,11 @@ export const metadata = {
   title: "JS2Photo",
   description:
     "Hack Club YSWS(You ship We ship for JS2Photo), a js sketch submission website using p5.js.",
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: "/assets/icon-square.png",
+    apple: "/assets/icon-square.png",
+  },
 };
 
 export default function RootLayout({ children }) {

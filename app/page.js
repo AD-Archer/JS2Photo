@@ -130,9 +130,11 @@ export default function Home() {
                   What should I make?
                 </summary>
                 <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
-                  Make any small p5.js sketch: something basic,
-                  shapes, particles, or whatever feels fun, and whatever you
-                  would want to make real. Be warned something like an animation will be differcult to print but if you have enough hours then you can print multiple like a flipbook.
+                  Make any small p5.js sketch: something basic, shapes,
+                  particles, or whatever feels fun, and whatever you would want
+                  to make real. Be warned something like an animation will be
+                  differcult to print but if you have enough hours then you can
+                  print multiple like a flipbook.
                 </p>
               </details>
               <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
