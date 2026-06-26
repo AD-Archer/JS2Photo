@@ -13,7 +13,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Neon Genesis",
-  description: "You ship We ship for Neon Genesis, a js sketch submission website.",
+  description:
+    "You ship We ship for Neon Genesis, a js sketch submission website.",
 };
 
 export default function RootLayout({ children }) {
