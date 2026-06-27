@@ -33,6 +33,12 @@ export default function Home() {
         />
       </a>
 
+      <div className="absolute right-5 top-5 z-10 text-right sm:right-8 sm:top-7">
+        <p className="text-xs font-black uppercase tracking-wide text-[#ec3750]">
+          an archer ysws
+        </p>
+      </div>
+
       <div className="mx-auto flex w-full max-w-6xl flex-col px-5 pb-5 pt-24 sm:px-8 sm:pb-7 sm:pt-28">
         <section className="py-8 sm:py-12 lg:py-14">
           <div className="grid gap-9 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-14 xl:grid-cols-[minmax(0,1fr)_360px]">
@@ -78,6 +84,39 @@ export default function Home() {
               />
             </div>
           </div>
+        </section>
+
+        <section className="border-t-2 border-black/80 py-9 sm:py-11">
+          <div className="grid gap-6 lg:grid-cols-[0.72fr_1.28fr] lg:items-center">
+            <div className="max-w-md">
+              <h2 className="text-3xl font-black leading-tight text-[#111] sm:text-4xl">
+                Very beginner friendly.
+              </h2>
+              <p className="mt-4 text-base font-bold leading-7 text-[#323232]">
+                New to p5.js? Start with a tutorial, remix an example, and make
+                something small that feels like yours.
+              </p>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <a
+                href="https://p5js.org/examples/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border-2 border-black bg-white px-4 py-4 font-black shadow-[4px_4px_0_#000] transition-transform hover:-translate-y-0.5"
+              >
+                p5.js examples
+              </a>
+              <a
+                href="https://p5js.org/tutorials/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border-2 border-black bg-white px-4 py-4 font-black shadow-[4px_4px_0_#000] transition-transform hover:-translate-y-0.5"
+              >
+                p5.js tutorials
+              </a>
+            </div>
+          </div>
+              
         </section>
 
         <section className="border-y-2 border-black/80 py-9 sm:py-11">
