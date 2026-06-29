@@ -55,12 +55,12 @@ export default function Home() {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
-                  href="https://editor.p5js.org/"
+                  href="https://marketplace.visualstudio.com/items?itemName=Irti.p5js-project-generator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-[#ec3750] px-5 text-base font-black text-white shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
                 >
-                  Open p5.js
+                  Open p5.js generator
                 </a>
                 <a
                   href="https://forms.hackclub.com/js2photo"
@@ -97,7 +97,15 @@ export default function Home() {
                 something small that feels like yours.
               </p>
             </div>
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              <a
+                href="https://p5js.org/tutorials/setting-up-your-environment/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border-2 border-black bg-[#ec3750] px-4 py-4 font-black text-white shadow-[4px_4px_0_#000] transition-transform hover:-translate-y-0.5"
+              >
+                Setup(Required)
+              </a>
               <a
                 href="https://p5js.org/examples/"
                 target="_blank"
@@ -116,7 +124,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-              
         </section>
 
         <section className="border-y-2 border-black/80 py-9 sm:py-11">
@@ -183,6 +190,33 @@ export default function Home() {
                 <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
                   Submit your p5.js share link and screenshots using the above
                   form.
+                </p>
+              </details>
+              <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
+                <summary className="cursor-pointer list-none text-base font-black marker:hidden">
+                  Can I code in VS Code?
+                </summary>
+                <p className="mt-3 text-sm font-bold leading-6 text-[#323232]">
+                  Yes. If you want your p5.js time to count in Hackatime, use VS
+                  Code with the{" "}
+                  <a
+                    href="https://marketplace.visualstudio.com/items?itemName=Irti.p5js-project-generator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-2 underline-offset-2 hover:text-[#ec3750]"
+                  >
+                    p5.js project generator extension
+                  </a>
+                  . The official{" "}
+                  <a
+                    href="https://p5js.org/tutorials/setting-up-your-environment/#vscode"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-2 underline-offset-2 hover:text-[#ec3750]"
+                  >
+                    p5.js VS Code setup guide
+                  </a>{" "}
+                  can help you get your sketch running locally.
                 </p>
               </details>
               <details className="group rounded-md border-2 border-black bg-white px-4 py-3 shadow-[4px_4px_0_#000]">
