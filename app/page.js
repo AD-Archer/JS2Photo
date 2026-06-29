@@ -4,6 +4,9 @@ import PixelBlast from "@/components/PixelBlast/PixelBlast";
 export default function Home() {
   return (
     <main className="relative isolate min-h-screen overflow-hidden bg-[#f8f3e7] text-[#1f1f1f]">
+      <div className="relative z-20 border-b-2 border-black bg-[#ec3750] px-5 py-3 text-center text-sm font-black uppercase tracking-wide text-white sm:text-base">
+        This ship is closed
+      </div>
       <div className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_78%_24%,rgba(255,142,38,0.18),transparent_32%),linear-gradient(135deg,#fff8ea_0%,#f8f3e7_48%,#ffd9d9_100%)]" />
       <div className="pointer-events-none absolute right-0 top-0 -z-10 h-[74vh] w-full opacity-15 sm:w-3/5 sm:opacity-35">
         <PixelBlast
@@ -21,7 +24,7 @@ export default function Home() {
 
       <a
         href="https://hackclub.com"
-        className="group absolute left-0 top-0 z-10 block"
+        className="group absolute left-0 top-12 z-10 block"
       >
         <Image
           src="/assets/flag-orpheus-top.svg"
@@ -33,13 +36,17 @@ export default function Home() {
         />
       </a>
 
-      <div className="absolute right-5 top-5 z-10 text-right sm:right-8 sm:top-7">
+      <div className="absolute right-5 top-[4.25rem] z-10 text-right sm:right-8 sm:top-[4.75rem]">
         <p className="text-xs font-black uppercase tracking-wide text-[#ec3750]">
-          an archer ysws
+          an{" "}
+          <a href="https://www.antonioarcher.com" className="underline">
+            archer
+          </a>{" "}
+          ysws
         </p>
       </div>
 
-      <div className="mx-auto flex w-full max-w-6xl flex-col px-5 pb-5 pt-24 sm:px-8 sm:pb-7 sm:pt-28">
+      <div className="mx-auto flex w-full max-w-6xl flex-col px-5 pb-5 pt-28 sm:px-8 sm:pb-7 sm:pt-32">
         <section className="py-8 sm:py-12 lg:py-14">
           <div className="grid gap-9 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-14 xl:grid-cols-[minmax(0,1fr)_360px]">
             <div className="max-w-3xl">
@@ -52,25 +59,6 @@ export default function Home() {
                 Create something in p5.js, submit your sketch, and we’ll mail
                 you a physical print of your artwork.
               </p>
-
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a
-                  href="https://marketplace.visualstudio.com/items?itemName=Irti.p5js-project-generator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-[#ec3750] px-5 text-base font-black text-white shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
-                >
-                  Open p5.js generator
-                </a>
-                <a
-                  href="https://forms.hackclub.com/js2photo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex min-h-12 items-center justify-center rounded-md border-2 border-black bg-white px-5 text-base font-black text-[#111] shadow-[5px_5px_0_#000] transition-transform hover:-translate-y-0.5"
-                >
-                  Submit sketch
-                </a>
-              </div>
             </div>
 
             <div className="mx-auto w-full max-w-[260px] sm:max-w-[300px] lg:max-w-none">
